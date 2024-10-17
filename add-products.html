@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style1.css">
+
+    <title>TechHub</title>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <a href="#" class="brand">
+            <span class="text">TechHub</span>
+        </a>
+        <ul class="nav-menu">
+            <li>
+                <a href="dashboard.php">
+                    <i class='bx bxs-dashboard'></i>
+                    <span class="text">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="add-products.html">
+                    <i class='bx bxs-box'></i>
+                    <span class="text">Add Products</span>
+                </a>
+            </li>
+            <li>
+                <a href="view-posts.php">
+                    <i class='bx bxs-file'></i>
+                    <span class="text">View Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="accounts.php">
+                    <i class='bx bxs-user'></i>
+                    <span class="text">Accounts</span>
+                </a>
+            </li>
+            <li>
+                <a href="logout.php" class="logout">
+                    <i class='bx bxs-log-out-circle'></i>
+                    <span class="text">Logout</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- NAVBAR -->
+
+    <!-- CONTENT -->
+    <section id="content">
+        <!-- MAIN -->
+        <main>
+            <div class="head-title">
+                <div class="left">
+                    <h1>Add Products</h1>
+                </div>
+            </div>
+            <div class="wrapper" id="signIn">
+                <h1>Add products</h1>
+                <form id="myform" method="post" action="">
+                    <div class ="input-box">
+                        <p>Product Name</p>
+                        <input type ="text" name="pname" id="pname" required>
+                    </div>
+                    <div class ="input-box">
+                        <input type ="text" name="lname" id="lname" placeholder="last Name"required>
+
+                    </div>
+                  <div class="input-box">
+                      <input type="email" name="email" id="email" placeholder="Email" required>
+                  </div>
+                  <div class="input-box">
+                    
+                      <input type="password" name="password" id="password" placeholder="Password" required>
+                  </div>
+                 <button type="submit" class="btn" value="Sign In" name="signIn">Sign In</button>
+                </form>
+
+        </main>
+        <!-- MAIN -->
+    </section>
+    <!-- CONTENT -->
+
+    <script src="script.js"></script>
+</body>
+</html>

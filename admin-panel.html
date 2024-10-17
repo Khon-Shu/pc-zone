@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="panel.css">
+
+    <title>TechHub</title>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <a href="#" class="brand">
+            <span class="text">TechHub</span>
+        </a>
+        <ul class="nav-menu">
+            <li>
+                <a href="dashboard.php">
+                    <i class='bx bxs-dashboard'></i>
+                    <span class="text">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="add-products.html">
+                    <i class='bx bxs-box'></i>
+                    <span class="text">Add Products</span>
+                </a>
+            </li>
+            <li>
+                <a href="view-posts.php">
+                    <i class='bx bxs-file'></i>
+                    <span class="text">View Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="accounts.php">
+                    <i class='bx bxs-user'></i>
+                    <span class="text">Accounts</span>
+                </a>
+            </li>
+            <li>
+                <a href="logout.php" class="logout">
+                    <i class='bx bxs-log-out-circle'></i>
+                    <span class="text">Logout</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- NAVBAR -->
+
+    <!-- CONTENT -->
+    <section id="content">
+        <!-- MAIN -->
+        <main>
+            <div class="head-title">
+                <div class="left">
+                    <h1>Dashboard</h1>
+                </div>
+            </div>
+
+            <!-- Boxes Section -->
+            <div class="boxes">
+                <div class="box">
+                    <h2>Hello Admin</h2>
+                    <p>Click to <a href="update-profile.php">update your profile</a>.</p>
+                </div>
+                <div class="box">
+                    <h2>Add Admins</h2>
+                    <p>Click to <a href="add-admin.php">add new admins</a>.</p>
+                </div>
+                <div class="box">
+                    <h2>Products Added</h2>
+                    <p>Click to <a href="view-products.php">view added products</a>.</p>
+                </div>
+                <div class="box">
+                    <h2>Active Posts</h2>
+                    <p>Click to <a href="view-active-posts.php">view active posts</a>.</p>
+                </div>
+            </div>
+            <!-- End of Boxes Section -->
+
+        </main>
+        <!-- MAIN -->
+    </section>
+    <!-- CONTENT -->
+
+    <script src="script.js"></script>
+</body>
+</html>
